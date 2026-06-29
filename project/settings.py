@@ -132,8 +132,8 @@ MEDIA_ROOT=BASE_DIR/'media'
 
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': 'dpupon5l6',
-    'API_KEY': '369757349525798',
-    'API_SECRET': '0BVJ09XnffZujJjM07At4SGTC2E',
+    'API_KEY': 
+    'API_SECRET': 
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
