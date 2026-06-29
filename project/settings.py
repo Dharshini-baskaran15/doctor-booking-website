@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'account',
+    'cloudinary',
+    'cloudinary_storage',
 ]
 
 MIDDLEWARE = [
@@ -127,3 +129,11 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_URL='media/'
 MEDIA_ROOT=BASE_DIR/'media'
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dpupon5l6',
+    'API_KEY': '369757349525798',
+    'API_SECRET': '0BVJ09XnffZujJjM07At4SGTC2E',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
