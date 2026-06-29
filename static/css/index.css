@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aqua;
+    padding: 30px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aqua;
+}
+
+/* Main Section */
+#dharsh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px 100px;
+    color: aqua;
+}
+
+.content{
+    width: 50%;
+}
+
+.content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#dharsh img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 0 20px aqua;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: aqua;
+    padding: 20px;
+    text-align: center;
+}
