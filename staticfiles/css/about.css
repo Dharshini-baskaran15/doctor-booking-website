@@ -1,0 +1,44 @@
+
+header{
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+}
+nav li{
+    margin-right: 20px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: aqua;
+}
+#Hero{
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    padding: 40px;
+} 
+#Hero p{
+    width: 700px;
+    height: 500px;
+    line-height: 30px;
+    text-align: justify;
+    margin: auto;
+
+}
+footer{
+    background-color: black;
+    color: aqua;
+    padding: 20px;
+    text-align: center;
+}

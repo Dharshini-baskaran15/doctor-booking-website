@@ -1,0 +1,32 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    
+}
+
+.container img{
+    width:500px;
+    height: 500px;
+    box-shadow: 0 0 40px black;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+}
+
+.btn button{
+    width: 200px;
+    padding: 10px;
+    background-color:purple;
+    margin: 20px;
+    border-radius: 20px;
+    color: aqua;
+}
+
+body{
+    background-color: black;
+    color: aqua;
+}
